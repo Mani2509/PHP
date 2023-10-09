@@ -14,7 +14,7 @@
     $mysql_conn ->select_db($databasename);
 
     $sqlCreateTable = "create table if not exists empdetails(
-                        id int not null, primary key,
+                        id int not null primary key,
                         name varchar(50) not null,
                         department varchar(50),
                         advance amount int,
